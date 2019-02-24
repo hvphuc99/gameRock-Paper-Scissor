@@ -1,0 +1,55 @@
+body {
+    background-color: lightslategrey;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title p{
+    font-size: 48px;
+    color: white;
+}
+
+.score {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.round {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    font-size: 40px;
+}
+
+.message {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+
+.weapons {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+}
+
+.weapons input{
+    height: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.weapons input:hover {
+    height: 180px;
+    transition-duration: 0.5s;
+}
