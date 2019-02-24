@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Rock-Paper-Scissor</title>
+    </head>
+    <body>
+        <div class="title">
+            <p>Rock|Paper|Scissor</p>
+        </div>
+        <div class="info">
+            <div class="score">
+                <div>
+                    Player Score:
+                    <span id="player-score">0</span>
+                </div>
+                <div>
+                    Computer Score:
+                    <span id="computer-score">0</span>
+                </div>
+            </div>
+            <div class="round">
+                Round:
+                <span id="current-round">1</span>
+            </div>
+            <div class="message">
+                5 Rounds -- Choose your weapon!
+            </div>
+            <div class="weapons">
+                <input id="rock" type="image" src="rock.png" alt="Rock">
+                <input id="paper" type="image" src="paper.png" alt="Paper">
+                <input id="scissor" type="image" src="scissor.png" alt="Scissor">
+            </div>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>
